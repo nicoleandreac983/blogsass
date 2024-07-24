@@ -1,0 +1,35 @@
+
+.related__card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 150px;
+}
+
+.related__card-img {
+    width: 50%;
+    height: 150px; /* Ajuste la altura de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra el área y mantenga la proporción */
+}
+
+.related__card-date, .related__card-text {
+    margin: 8px 16px;
+    text-align: center;
+}
+
+.related__card-date {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.related__card-text {
+    font-size: 1.125rem;
+    color: #333;
+    margin-bottom: 16px;
+    padding-left: 4px;
+}

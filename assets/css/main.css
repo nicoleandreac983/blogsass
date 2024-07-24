@@ -1,0 +1,301 @@
+@charset "UTF-8";
+.subs__btn {
+  background-color: #ABB2B9;
+  color: black;
+}
+
+.register__google {
+  margin-left: 610px;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e4e6e5;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form__container-buton {
+  padding: 10px 20px;
+  background-color: #08b553;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form__container-buton:hover {
+  background-color: #16f358;
+}
+
+.register__button {
+  margin-left: 610px;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #08b553;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.register__button:hover {
+  background-color: #16f358;
+}
+
+.related__card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: start;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 150px;
+}
+
+.related__card-img {
+  width: 50%;
+  height: 150px; /* Ajuste la altura de la imagen */
+  -o-object-fit: cover;
+     object-fit: cover; /* Asegura que la imagen cubra el área y mantenga la proporción */
+}
+
+.related__card-date, .related__card-text {
+  margin: 8px 16px;
+  text-align: center;
+}
+
+.related__card-date {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.related__card-text {
+  font-size: 1.125rem;
+  color: #333;
+  margin-bottom: 16px;
+  padding-left: 4px;
+}
+
+.news {
+  padding-top: 30px;
+}
+
+.news__logo {
+  display: flex;
+}
+
+.news__title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.news__logo-img {
+  width: 30px;
+  height: 30px;
+  margin-left: 40px;
+  border-radius: 77px;
+}
+
+.news__text--small {
+  margin-left: 5px;
+  padding-top: 8px;
+  margin-right: 15px;
+}
+
+.news__info {
+  margin-left: 50px;
+  padding-top: 20px;
+  background-color: #E5E8E8;
+  padding-bottom: 30px;
+  margin-right: 80px;
+}
+
+.news__info-img {
+  margin-left: 300px;
+  height: 250px;
+}
+
+.news__text--large {
+  margin-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.related {
+  margin-left: 60px;
+  padding-top: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 80px;
+}
+
+.subs {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #35d41c;
+  margin-left: 60px;
+  border-radius: 5px;
+  width: 900px;
+  height: auto;
+}
+
+.subs__title {
+  padding-top: 40px;
+  margin-left: 100px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  width: 450px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  border-radius: 20px;
+  display: flex;
+}
+
+.nav__logo {
+  width: 40px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  opacity: 0px;
+  margin-right: 20px;
+  margin-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.nav__text {
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 37px;
+  padding-bottom: 10px;
+}
+
+.nav__links {
+  margin-left: 800px;
+  display: flex;
+  list-style: none;
+  padding-top: 35px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.nav__link {
+  text-decoration: none;
+  margin-right: 20px;
+  color: rgba(9, 177, 26, 0.863);
+}
+
+.footer {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.footer__logo {
+  padding-top: 30px;
+  margin-left: 40px;
+  margin-right: 5px;
+  width: 40px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.footer__text {
+  padding-top: 35px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.footer__p {
+  margin-left: 800px;
+  padding-top: 35px;
+}
+
+.subs__form {
+  margin-left: 100px;
+  border-radius: 8px;
+  padding-bottom: 30px;
+}
+
+.subs__input {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.register {
+  text-align: center;
+}
+.register form {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos del formulario en columna */
+  gap: 10px; /* Espacio entre los elementos del formulario */
+}
+.register form input {
+  margin-left: 610px;
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.register__title {
+  padding-top: 25px;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.register__box {
+  display: inline-flex;
+  margin-left: 620px;
+}
+
+.register__box-text {
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-right: 8px;
+}
+
+.register__box-start {
+  padding-top: 18px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form__container {
+  display: block;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 700px;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #35d41c;
+  color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.form__container label {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.form__container input {
+  width: 100%; /* Asegura que el input ocupe todo el ancho disponible */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}/*# sourceMappingURL=main.css.map */
